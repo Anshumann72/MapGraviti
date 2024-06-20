@@ -30,7 +30,7 @@ const MapComponent = ({ origin, destination, waypoints }) => {
   };
 
   return (
-    <LoadScript googleMapsApiKey="AIzaSyBC8uq3kkXj-6-KmmbE3oLcw2pX5nvRSnM">
+    <LoadScript googleMapsApiKey="Removed Api Key For Now">
       <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={5}>
         {origin !== "" && destination !== "" && (
           <DirectionsService
